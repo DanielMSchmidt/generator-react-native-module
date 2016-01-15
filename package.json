@@ -1,0 +1,50 @@
+{
+  "name": "generator-react-native-module",
+  "version": "0.0.0",
+  "description": "Generates a node module to include in a react-native application",
+  "homepage": "",
+  "author": {
+    "name": "Daniel Schmidt",
+    "email": "daniel.maximilian@gmx.net",
+    "url": "danielmschmidt.de"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "generator",
+    "node",
+    "module"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "lodash": "^4.0.0",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "yeoman-assert": "^2.0.0",
+    "eslint-config-xo-space": "^0.7.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "DanielMSchmidt/generator-react-native-module",
+  "scripts": {
+    "prepublish": "gulp prepublish"
+  },
+  "license": "MIT"
+}
