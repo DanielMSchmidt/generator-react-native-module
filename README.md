@@ -1,6 +1,13 @@
 # generator-react-native-module [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] 
 > Generates a node module to include in a react-native application
 
+## Features
+
+- [X] Basic structure for a react-native module
+- [X] ES6 support with babel
+- [X] Linting with XO
+- [ ] Basic unit test support with jest
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-react-native-module using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
