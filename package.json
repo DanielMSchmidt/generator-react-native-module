@@ -1,6 +1,6 @@
 {
   "name": "generator-react-native-module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generates a node module to include in a react-native application",
   "homepage": "",
   "author": {
